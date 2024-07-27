@@ -10,6 +10,7 @@ const AddProduct = () => {
     new_price: "",
     old_price: "",
     image: "",
+    des: ""
   });
 
   const imageHandle = (e) => {
@@ -94,6 +95,18 @@ const AddProduct = () => {
             name="new_price"
             placeholder="Type here..."
             className=" w-[50%] border-[2px] rounded-md p-2 "
+          />
+        </div>
+
+        <div className="w-[80%] flex flex-col gap-4">
+          <h4>Description: </h4>
+          <textarea
+            value={productDetails.des}
+            onChange={changeHandle}
+            type="text"
+            name="des"
+            placeholder="Type here..."
+            className="h-[200px] w-[50%] border-[2px] rounded-md p-2 "
           />
         </div>
 
