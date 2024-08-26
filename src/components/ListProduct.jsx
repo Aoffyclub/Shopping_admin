@@ -58,7 +58,11 @@ const ListProduct = () => {
                 <tr key={i}>
                   <td className="border">
                     <div className="flex items-center justify-center h-[115px]">
-                      <img src={product.image} alt="" className="h-[100px]" />
+                      <img
+                        src={import.meta.env.VITE_API_URL + product.image}
+                        alt=""
+                        className="h-[100px]"
+                      />
                     </div>
                   </td>
                   <td className="border">

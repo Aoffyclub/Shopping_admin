@@ -2,7 +2,7 @@
 
 # 🍕 Shopping Admin
 
-This is the admin panel for the Shopping web application, built with Vite and React. It allows administrators to manage the menu, orders, users, and other settings. Demo : http://45.154.26.220/shoppingAdmin/
+This is the admin panel for the Shopping web application, built with Vite and React. It allows administrators to manage the menu, orders, users, and other settings. Demo : https://aoffydev.online/shoppingAdmin/
 
 ## 🛠️ Features
 
